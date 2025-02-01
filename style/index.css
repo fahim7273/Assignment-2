@@ -292,6 +292,44 @@ p>.img1 {
     text-align: center;
 
 }
+.all{
+    width: 1000px;
+    height: 300px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 50px;
+    color: white;
+    margin-bottom: none;
+}
+.education{
+    display: flex;
+    align-items: center;
+}
+.education>h3{
+    width: 100px;
+}
+.edu>p{
+    width: 250px;
+    font-size: 12px;
+}
+.about1>p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 38px;
+}
+.about1>ul>li {
+    list-style: none;
+   
+}
+.items1>.items{
+    margin-bottom: 10px;
+}
+.touch>p{
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /* media-576 */
 @media screen and (max-width:576px) {
